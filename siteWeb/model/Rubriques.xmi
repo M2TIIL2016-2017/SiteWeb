@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="ASCII"?>
-<UBOSiteWebM2TIIL20162017MarrecGomezLevesque:Rubriques xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UBOSiteWebM2TIIL20162017MarrecGomezLevesque="https://github.com/M2TIIL2016-2017/SiteWeb/" xsi:schemaLocation="https://github.com/M2TIIL2016-2017/SiteWeb/ siteWeb.ecore"/>
+<UBOSiteWebM2TIIL20162017MarrecGomezLevesque:Rubriques xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UBOSiteWebM2TIIL20162017MarrecGomezLevesque="https://github.com/M2TIIL2016-2017/SiteWeb/" xsi:schemaLocation="https://github.com/M2TIIL2016-2017/SiteWeb/ ../model/siteWeb.ecore"/>
