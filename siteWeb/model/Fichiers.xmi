@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<web:Fichiers
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:web="http://www.example.org/web"
+    xsi:schemaLocation="http://www.example.org/web web.ecore"
+    type="png"
+    taille="15447"
+    nom="unePhoto"
+    emplacement="/photos/"/>
