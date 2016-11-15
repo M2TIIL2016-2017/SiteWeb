@@ -3,6 +3,7 @@
   <models xmi:type="ecore:EPackage" href="web.ecore#/"/>
   <models xmi:type="genmodel:GenModel" href="web.genmodel#/"/>
   <models xmi:type="web:Contact" href="Contact.xmi#/"/>
+  <models xmi:type="web:Fichiers" href="Fichiers.xmi#/"/>
   <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_k-IW0Ja6EeaNa5qRY_ZQng" initialized="true">
     <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_lKKAoJa6EeaNa5qRY_ZQng" name="web class diagram">
       <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_lK3yUJa6EeaNa5qRY_ZQng" source="GMF_DIAGRAMS">
