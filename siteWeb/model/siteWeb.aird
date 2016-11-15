@@ -8,7 +8,6 @@
   <models xmi:type="UBOSiteWebM2TIIL20162017MarrecGomezLevesque:Liens" href="Liens.xmi#/"/>
   <models xmi:type="UBOSiteWebM2TIIL20162017MarrecGomezLevesque:PageInterne" href="PageInterne.xmi#/"/>
   <models xmi:type="UBOSiteWebM2TIIL20162017MarrecGomezLevesque:Types" href="Types.xmi#/"/>
-  <models xmi:type="UBOSiteWebM2TIIL20162017MarrecGomezLevesque:Fichiers" href="Fichiers.xmi#/"/>
   <models xmi:type="UBOSiteWebM2TIIL20162017MarrecGomezLevesque:ConfigurationPage" href="ConfigurationPage.xmi#/"/>
   <models xmi:type="UBOSiteWebM2TIIL20162017MarrecGomezLevesque:PagePrincipale" href="PagePrincipale.xmi#/"/>
   <models xmi:type="genmodel:GenModel" href="siteWeb.genmodel#/"/>
