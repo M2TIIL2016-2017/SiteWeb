@@ -12,11 +12,15 @@
   </eAnnotations>
   <eClassifiers xsi:type="ecore:EClass" name="Contact">
     <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
-      <details key="constraints" value="testContactAdresse testContactAdresse2"/>
+      <details key="constraints" value="testContactAdresse testContactAdresse2 testContactNom testContactPrenom testContactMail testContactTel"/>
     </eAnnotations>
     <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
-      <details key="testContactAdresse" value="Tuple {&#xA;&#x9;message : String = 'Adresse vide',&#xA;&#x9;status : Boolean = adresse &lt;> null&#xA;}.status"/>
-      <details key="testContactAdresse2" value="Tuple {&#xA;&#x9;message : String = 'Adresse valide',&#xA;&#x9;status : Boolean = adresse = 'rue des facs'&#xA;}.status"/>
+      <details key="testContactAdresse" value="adresse &lt;> null"/>
+      <details key="testContactAdresse2" value="adresse = 'rue des facs'"/>
+      <details key="testContactNom" value="nom = 'Marrec'"/>
+      <details key="testContactPrenom" value="prenom = 'Cedric'"/>
+      <details key="testContactMail" value="mail = 'cedric.marrec29@gmail.com'"/>
+      <details key="testContactTel" value="telephone = '0606060606'"/>
     </eAnnotations>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="nom" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="prenom" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
@@ -44,9 +48,8 @@
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="baliseFermante" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="types" eType="#//Types"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="liens" eType="#//Liens"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="photo" lowerBound="1" eType="#//Photo"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="pages" lowerBound="1" upperBound="-1"
-        eType="#//PagePrincipale" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="photo" lowerBound="1" eType="#//Photo"
+        containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Types">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="gras" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
@@ -97,5 +100,7 @@
         eType="#//Fichiers"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="configurationPage" lowerBound="1"
         eType="#//ConfigurationPage"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="pages" lowerBound="1" upperBound="-1"
+        eType="#//PageInterne" containment="true"/>
   </eClassifiers>
 </ecore:EPackage>
