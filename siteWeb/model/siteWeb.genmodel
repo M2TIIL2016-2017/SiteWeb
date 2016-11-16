@@ -32,8 +32,8 @@
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute siteWeb.ecore#//PageInterne/baliseFermante"/>
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference siteWeb.ecore#//PageInterne/types"/>
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference siteWeb.ecore#//PageInterne/liens"/>
-      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference siteWeb.ecore#//PageInterne/photo"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference siteWeb.ecore#//PageInterne/pages"/>
+      <genFeatures children="true" createChild="true" propertySortChoices="true" ecoreFeature="ecore:EReference siteWeb.ecore#//PageInterne/photo"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference siteWeb.ecore#//PagePrincipale/pages"/>
     </genClasses>
     <genClasses ecoreClass="siteWeb.ecore#//Types">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute siteWeb.ecore#//Types/gras"/>
@@ -57,6 +57,7 @@
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference siteWeb.ecore#//PagePrincipale/rubriques"/>
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference siteWeb.ecore#//PagePrincipale/fichiers"/>
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference siteWeb.ecore#//PagePrincipale/configurationPage"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference siteWeb.ecore#//PagePrincipale/pages"/>
     </genClasses>
   </genPackages>
 </genmodel:GenModel>
