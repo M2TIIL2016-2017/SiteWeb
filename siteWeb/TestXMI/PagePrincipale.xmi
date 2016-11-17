@@ -17,5 +17,8 @@
       auteurs="Socrate"
       couleurPolice="Black"
       taillePolice="14"/>
-  <pages/>
+  <pages>
+    <photo taille="0.2"
+        nom="Photo_test"/>
+  </pages>
 </UBOSiteWebM2TIIL20162017MarrecGomezLevesque:PagePrincipale>
