@@ -4,6 +4,7 @@
   <models xmi:type="ecore:EPackage" href="http://www.eclipse.org/emf/2002/Ecore#/"/>
   <models xmi:type="genmodel:GenModel" href="siteWeb.genmodel#/"/>
   <models xmi:type="UBOSiteWebM2TIIL20162017MarrecGomezLevesque:PagePrincipale" href="../TestXMI/PagePrincipale.xmi#/"/>
+  <models xmi:type="UBOSiteWebM2TIIL20162017MarrecGomezLevesque:Contact" href="../TestXMI/Contact.xmi#/"/>
   <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_iqJ0EKspEeah3cap0ZmHnQ" initialized="true">
     <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_oD5f8KspEeah3cap0ZmHnQ" name="siteWeb class diagram">
       <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_oD5f9qspEeah3cap0ZmHnQ" source="GMF_DIAGRAMS">
