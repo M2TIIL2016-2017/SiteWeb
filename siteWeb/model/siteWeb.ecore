@@ -53,8 +53,10 @@
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="type" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="baliseOuvrante" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="baliseFermante" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="types" eType="#//Types"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="liens" eType="#//Liens"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="types" eType="#//Types"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="liens" eType="#//Liens"
+        containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="photo" lowerBound="1" eType="#//Photo"
         containment="true"/>
   </eClassifiers>
@@ -69,6 +71,16 @@
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="emplacement" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="ConfigurationPage">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
+      <details key="constraints" value="testCouleurFond testCouleurPolice testTitre testAuteurs testTaillePolice"/>
+    </eAnnotations>
+    <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
+      <details key="testCouleurFond" value="couleurFond = 'White'"/>
+      <details key="testCouleurPolice" value="couleurPolice = 'Black'"/>
+      <details key="testTitre" value="titreSite='SiteWeb'"/>
+      <details key="testAuteurs" value="auteurs= 'Socrate'"/>
+      <details key="testTaillePolice" value="taillePolice=14"/>
+    </eAnnotations>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="couleurFond" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
       <eAnnotations source="http://schema.omg.org/spec/MOF/2.0/emof.xml#Property.oppositeRoleName">
         <details key="body" value="PagePrincipale"/>
@@ -101,12 +113,13 @@
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="PagePrincipale">
     <eStructuralFeatures xsi:type="ecore:EReference" name="contacts" lowerBound="1"
-        upperBound="-1" eType="#//Contact"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="rubriques" eType="#//Rubriques"/>
+        upperBound="-1" eType="#//Contact" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rubriques" eType="#//Rubriques"
+        containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="fichiers" upperBound="-1"
-        eType="#//Fichiers"/>
+        eType="#//Fichiers" containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="configurationPage" lowerBound="1"
-        eType="#//ConfigurationPage"/>
+        eType="#//ConfigurationPage" containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="pages" lowerBound="1" upperBound="-1"
         eType="#//PageInterne" containment="true"/>
   </eClassifiers>

@@ -30,8 +30,8 @@
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute siteWeb.ecore#//PageInterne/type"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute siteWeb.ecore#//PageInterne/baliseOuvrante"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute siteWeb.ecore#//PageInterne/baliseFermante"/>
-      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference siteWeb.ecore#//PageInterne/types"/>
-      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference siteWeb.ecore#//PageInterne/liens"/>
+      <genFeatures children="true" createChild="true" propertySortChoices="true" ecoreFeature="ecore:EReference siteWeb.ecore#//PageInterne/types"/>
+      <genFeatures children="true" createChild="true" propertySortChoices="true" ecoreFeature="ecore:EReference siteWeb.ecore#//PageInterne/liens"/>
       <genFeatures children="true" createChild="true" propertySortChoices="true" ecoreFeature="ecore:EReference siteWeb.ecore#//PageInterne/photo"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference siteWeb.ecore#//PagePrincipale/pages"/>
     </genClasses>
@@ -53,10 +53,10 @@
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute siteWeb.ecore#//ConfigurationPage/taillePolice"/>
     </genClasses>
     <genClasses ecoreClass="siteWeb.ecore#//PagePrincipale">
-      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference siteWeb.ecore#//PagePrincipale/contacts"/>
-      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference siteWeb.ecore#//PagePrincipale/rubriques"/>
-      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference siteWeb.ecore#//PagePrincipale/fichiers"/>
-      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference siteWeb.ecore#//PagePrincipale/configurationPage"/>
+      <genFeatures children="true" createChild="true" propertySortChoices="true" ecoreFeature="ecore:EReference siteWeb.ecore#//PagePrincipale/contacts"/>
+      <genFeatures children="true" createChild="true" propertySortChoices="true" ecoreFeature="ecore:EReference siteWeb.ecore#//PagePrincipale/rubriques"/>
+      <genFeatures children="true" createChild="true" propertySortChoices="true" ecoreFeature="ecore:EReference siteWeb.ecore#//PagePrincipale/fichiers"/>
+      <genFeatures children="true" createChild="true" propertySortChoices="true" ecoreFeature="ecore:EReference siteWeb.ecore#//PagePrincipale/configurationPage"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference siteWeb.ecore#//PagePrincipale/pages"/>
     </genClasses>
   </genPackages>

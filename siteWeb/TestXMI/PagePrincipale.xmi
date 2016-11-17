@@ -1,4 +1,21 @@
 <?xml version="1.0" encoding="ASCII"?>
-<UBOSiteWebM2TIIL20162017MarrecGomezLevesque:PagePrincipale xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UBOSiteWebM2TIIL20162017MarrecGomezLevesque="https://github.com/M2TIIL2016-2017/SiteWeb/" xsi:schemaLocation="https://github.com/M2TIIL2016-2017/SiteWeb/ ../model/siteWeb.ecore">
+<UBOSiteWebM2TIIL20162017MarrecGomezLevesque:PagePrincipale
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:UBOSiteWebM2TIIL20162017MarrecGomezLevesque="https://github.com/M2TIIL2016-2017/SiteWeb/"
+    xsi:schemaLocation="https://github.com/M2TIIL2016-2017/SiteWeb/ ../model/siteWeb.ecore">
+  <contacts
+      nom="Marrec"
+      prenom="Cedric"
+      adresse="rue des facs"
+      mail="cedric.marrec29@gmail.com"
+      telephone="0606060606"/>
+  <configurationPage
+      couleurFond="White"
+      titreSite="SiteWeb"
+      auteurs="Socrate"
+      couleurPolice="Black"
+      taillePolice="14"/>
   <pages/>
 </UBOSiteWebM2TIIL20162017MarrecGomezLevesque:PagePrincipale>
