@@ -19,6 +19,17 @@
       taillePolice="14"/>
   <pages>
     <photo taille="0.2"
-        nom="Photo_test"/>
+        extension="png"
+        nom="uneImage"/>
+  </pages>
+  <pages>
+    <photo taille="0.3"
+        extension="png"
+        nom="uneImage2"/>
+  </pages>
+  <pages>
+    <photo taille="0.5"
+        extension="png"
+        nom="uneImage"/>
   </pages>
 </UBOSiteWebM2TIIL20162017MarrecGomezLevesque:PagePrincipale>

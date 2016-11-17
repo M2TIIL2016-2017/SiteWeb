@@ -30,11 +30,11 @@
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Photo">
     <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
-      <details key="constraints" value="tailleMinimum nomNonNul"/>
+      <details key="constraints" value="tailleMinimum testPhotoDoubleExiste"/>
     </eAnnotations>
     <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
       <details key="tailleMinimum" value="taille>=0.1"/>
-      <details key="nomNonNul" value="nom->notEmpty()"/>
+      <details key="testPhotoDoubleExiste" value="Photo.allInstances()->forAll(p1, p2 | p1 &lt;> p2 implies p1.nom &lt;> p2.nom )"/>
     </eAnnotations>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="taille" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EFloat"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="extension" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
