@@ -30,9 +30,10 @@
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Photo">
     <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
-      <details key="constraints" value="nomNonNul"/>
+      <details key="constraints" value="tailleMinimum nomNonNul"/>
     </eAnnotations>
     <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
+      <details key="tailleMinimum" value="taille>=0.1"/>
       <details key="nomNonNul" value="nom->notEmpty()"/>
     </eAnnotations>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="taille" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EFloat"/>
