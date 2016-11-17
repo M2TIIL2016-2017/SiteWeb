@@ -11,6 +11,7 @@
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute siteWeb.ecore#//Contact/adresse"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute siteWeb.ecore#//Contact/mail"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute siteWeb.ecore#//Contact/telephone"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute siteWeb.ecore#//PageInterne/texte"/>
     </genClasses>
     <genClasses ecoreClass="siteWeb.ecore#//Photo">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute siteWeb.ecore#//Photo/taille"/>
@@ -27,12 +28,11 @@
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute siteWeb.ecore#//Liens/pageInterne"/>
     </genClasses>
     <genClasses ecoreClass="siteWeb.ecore#//PageInterne">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute siteWeb.ecore#//PageInterne/type"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute siteWeb.ecore#//PageInterne/baliseOuvrante"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute siteWeb.ecore#//PageInterne/baliseFermante"/>
       <genFeatures children="true" createChild="true" propertySortChoices="true" ecoreFeature="ecore:EReference siteWeb.ecore#//PageInterne/types"/>
       <genFeatures children="true" createChild="true" propertySortChoices="true" ecoreFeature="ecore:EReference siteWeb.ecore#//PageInterne/liens"/>
       <genFeatures children="true" createChild="true" propertySortChoices="true" ecoreFeature="ecore:EReference siteWeb.ecore#//PageInterne/photo"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute siteWeb.ecore#//PageInterne/titrePage"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute siteWeb.ecore#//PageInterne/texte"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference siteWeb.ecore#//PagePrincipale/pages"/>
     </genClasses>
     <genClasses ecoreClass="siteWeb.ecore#//Types">

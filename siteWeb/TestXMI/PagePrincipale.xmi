@@ -11,23 +11,31 @@
       adresse="rue des facs"
       mail="cedric.marrec29@gmail.com"
       telephone="0606060606"/>
+  <rubriques
+      texte="Rubrique avec des pages d'essais"
+      lien="/essai/"/>
   <configurationPage
       couleurFond="White"
       titreSite="SiteWeb"
       auteurs="Socrate"
       couleurPolice="Black"
       taillePolice="14"/>
-  <pages>
+  <pages titrePage="Page 1"
+      texte="Bienvenue sur la Page 1. Nous sommes heureux de vous afficher cette belle page.">
+    <types gras="true"/>
     <photo taille="0.2"
         extension="png"
         nom="uneImage"/>
   </pages>
-  <pages>
+  <pages titrePage="La Page 2"
+      texte="Bienvenue sur la Page 2. Nous sommes heureux de vous afficher cette belle page.">
+    <liens adresseWeb="http://google.fr"/>
     <photo taille="0.3"
         extension="png"
         nom="uneImage2"/>
   </pages>
-  <pages>
+  <pages titrePage="The 3eme Page"
+      texte="Bienvenue sur la Page 3. Nous sommes heureux de vous afficher cette belle page.">
     <photo taille="0.5"
         extension="png"
         nom="uneImage"/>
