@@ -3,6 +3,15 @@
   <models xmi:type="ecore:EPackage" href="siteWeb.ecore#/"/>
   <models xmi:type="ecore:EPackage" href="http://www.eclipse.org/emf/2002/Ecore#/"/>
   <models xmi:type="genmodel:GenModel" href="siteWeb.genmodel#/"/>
+  <models xmi:type="UBOSiteWebM2TIIL20162017MarrecGomezLevesque:PagePrincipale" href="../TestXMI/PagePrincipale.xmi#/"/>
+  <models xmi:type="UBOSiteWebM2TIIL20162017MarrecGomezLevesque:ConfigurationPage" href="ConfigurationPage.xmi#/"/>
+  <models xmi:type="UBOSiteWebM2TIIL20162017MarrecGomezLevesque:Contact" href="Contact.xmi#/"/>
+  <models xmi:type="UBOSiteWebM2TIIL20162017MarrecGomezLevesque:Liens" href="Liens.xmi#/"/>
+  <models xmi:type="UBOSiteWebM2TIIL20162017MarrecGomezLevesque:PageInterne" href="PageInterne.xmi#/"/>
+  <models xmi:type="UBOSiteWebM2TIIL20162017MarrecGomezLevesque:PagePrincipale" href="PagePrincipale.xmi#/"/>
+  <models xmi:type="UBOSiteWebM2TIIL20162017MarrecGomezLevesque:Photo" href="Photo.xmi#/"/>
+  <models xmi:type="UBOSiteWebM2TIIL20162017MarrecGomezLevesque:Rubriques" href="Rubriques.xmi#/"/>
+  <models xmi:type="UBOSiteWebM2TIIL20162017MarrecGomezLevesque:Types" href="Types.xmi#/"/>
   <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_iqJ0EKspEeah3cap0ZmHnQ" initialized="true">
     <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_oD5f8KspEeah3cap0ZmHnQ" name="siteWeb class diagram">
       <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_oD5f9qspEeah3cap0ZmHnQ" source="GMF_DIAGRAMS">
@@ -657,7 +666,7 @@
           <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_HaitxK0OEeaG8N_3SR8aMg" red="255" green="252" blue="216"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
-        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_9pzMcK0NEeaG8N_3SR8aMg" name="titrePage : EString" tooltipText="&#xA;ERROR : The required feature 'eAttributeType' of 'org.eclipse.emf.ecore.impl.EAttributeImpl@1927ec5{platform:/resource/siteWeb_git/model/siteWeb.ecore#//PageInterne/newAttribute}' must be set&#xA;ERROR : The typed element must have a type">
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_9pzMcK0NEeaG8N_3SR8aMg" name="titrePage : EString" tooltipText="">
           <target xmi:type="ecore:EAttribute" href="siteWeb.ecore#//PageInterne/titrePage"/>
           <semanticElements xmi:type="ecore:EAttribute" href="siteWeb.ecore#//PageInterne/titrePage"/>
           <ownedStyle xmi:type="diagram:BundledImage" xmi:id="__PG9YK0NEeaG8N_3SR8aMg" labelAlignment="LEFT">
@@ -668,7 +677,7 @@
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
         </ownedElements>
-        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_EblpUK0OEeaG8N_3SR8aMg" name="texte : EString" tooltipText="&#xA;ERROR : The required feature 'eAttributeType' of 'org.eclipse.emf.ecore.impl.EAttributeImpl@2080e2{platform:/resource/siteWeb_git/model/siteWeb.ecore#//Contact/newAttribute}' must be set&#xA;ERROR : The typed element must have a type">
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_EblpUK0OEeaG8N_3SR8aMg" name="texte : EString" tooltipText="">
           <target xmi:type="ecore:EAttribute" href="siteWeb.ecore#//PageInterne/texte"/>
           <semanticElements xmi:type="ecore:EAttribute" href="siteWeb.ecore#//PageInterne/texte"/>
           <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_HalxEK0OEeaG8N_3SR8aMg" labelAlignment="LEFT">
@@ -992,13 +1001,4 @@
   <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_jRZaQKspEeah3cap0ZmHnQ" initialized="true">
     <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Generation']"/>
   </ownedViews>
-  <models xmi:type="UBOSiteWebM2TIIL20162017MarrecGomezLevesque:PagePrincipale" href="../TestXMI/PagePrincipale.xmi#/"/>
-  <models xmi:type="UBOSiteWebM2TIIL20162017MarrecGomezLevesque:ConfigurationPage" href="ConfigurationPage.xmi#/"/>
-  <models xmi:type="UBOSiteWebM2TIIL20162017MarrecGomezLevesque:Contact" href="Contact.xmi#/"/>
-  <models xmi:type="UBOSiteWebM2TIIL20162017MarrecGomezLevesque:Liens" href="Liens.xmi#/"/>
-  <models xmi:type="UBOSiteWebM2TIIL20162017MarrecGomezLevesque:PageInterne" href="PageInterne.xmi#/"/>
-  <models xmi:type="UBOSiteWebM2TIIL20162017MarrecGomezLevesque:PagePrincipale" href="PagePrincipale.xmi#/"/>
-  <models xmi:type="UBOSiteWebM2TIIL20162017MarrecGomezLevesque:Photo" href="Photo.xmi#/"/>
-  <models xmi:type="UBOSiteWebM2TIIL20162017MarrecGomezLevesque:Rubriques" href="Rubriques.xmi#/"/>
-  <models xmi:type="UBOSiteWebM2TIIL20162017MarrecGomezLevesque:Types" href="Types.xmi#/"/>
 </viewpoint:DAnalysis>

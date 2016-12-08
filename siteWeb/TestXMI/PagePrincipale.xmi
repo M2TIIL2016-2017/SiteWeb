@@ -2,9 +2,7 @@
 <UBOSiteWebM2TIIL20162017MarrecGomezLevesque:PagePrincipale
     xmi:version="2.0"
     xmlns:xmi="http://www.omg.org/XMI"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:UBOSiteWebM2TIIL20162017MarrecGomezLevesque="https://github.com/M2TIIL2016-2017/SiteWeb/"
-    xsi:schemaLocation="https://github.com/M2TIIL2016-2017/SiteWeb/ ../model/siteWeb.ecore">
+    xmlns:UBOSiteWebM2TIIL20162017MarrecGomezLevesque="https://github.com/M2TIIL2016-2017/SiteWeb/">
   <contacts
       nom="Marrec"
       prenom="Cedric"
@@ -38,6 +36,6 @@
       texte="Bienvenue sur la Page 3. Nous sommes heureux de vous afficher cette belle page.">
     <photo taille="0.5"
         extension="png"
-        nom="uneImage"/>
+        nom="uneImage3"/>
   </pages>
 </UBOSiteWebM2TIIL20162017MarrecGomezLevesque:PagePrincipale>
