@@ -21,8 +21,8 @@ import org.eclipse.emf.ecore.EObject;
  * </p>
  *
  * @see siteWeb.SiteWebPackage#getContact()
- * @model annotation="http://www.eclipse.org/emf/2002/Ecore constraints='testContactAdresse testContactAdresse2 testContactNom testContactPrenom testContactMail testContactTel'"
- *        annotation="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot testContactAdresse='adresse <> null' testContactAdresse2='adresse = \'rue des facs\'' testContactNom='nom = \'Marrec\'' testContactPrenom='prenom = \'Cedric\'' testContactMail='mail = \'cedric.marrec29@gmail.com\'' testContactTel='telephone = \'0606060606\''"
+ * @model annotation="http://www.eclipse.org/emf/2002/Ecore constraints='testContactAdresse testContactAdresse2 testContactNom testContactPrenom testContactTel'"
+ *        annotation="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot testContactAdresse='adresse <> null' testContactAdresse2='adresse = \'rue des facs\'' testContactNom='nom = \'Marrec\'' testContactPrenom='prenom = \'Cedric\'' testContactTel='telephone = \'0606060606\''"
  * @generated
  */
 public interface Contact extends EObject {

@@ -762,7 +762,7 @@ public class SiteWebPackageImpl extends EPackageImpl implements SiteWebPackage {
 		  (contactEClass, 
 		   source, 
 		   new String[] {
-			 "constraints", "testContactAdresse testContactAdresse2 testContactNom testContactPrenom testContactMail testContactTel"
+			 "constraints", "testContactAdresse testContactAdresse2 testContactNom testContactPrenom testContactTel"
 		   });	
 		addAnnotation
 		  (photoEClass, 
@@ -794,7 +794,6 @@ public class SiteWebPackageImpl extends EPackageImpl implements SiteWebPackage {
 			 "testContactAdresse2", "adresse = \'rue des facs\'",
 			 "testContactNom", "nom = \'Marrec\'",
 			 "testContactPrenom", "prenom = \'Cedric\'",
-			 "testContactMail", "mail = \'cedric.marrec29@gmail.com\'",
 			 "testContactTel", "telephone = \'0606060606\'"
 		   });	
 		addAnnotation

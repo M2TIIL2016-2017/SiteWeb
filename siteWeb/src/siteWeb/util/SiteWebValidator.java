@@ -128,7 +128,6 @@ public class SiteWebValidator extends EObjectValidator {
 		if (result || diagnostics != null) result &= validateContact_testContactAdresse2(contact, diagnostics, context);
 		if (result || diagnostics != null) result &= validateContact_testContactNom(contact, diagnostics, context);
 		if (result || diagnostics != null) result &= validateContact_testContactPrenom(contact, diagnostics, context);
-		if (result || diagnostics != null) result &= validateContact_testContactMail(contact, diagnostics, context);
 		if (result || diagnostics != null) result &= validateContact_testContactTel(contact, diagnostics, context);
 		return result;
 	}
@@ -244,35 +243,6 @@ public class SiteWebValidator extends EObjectValidator {
 				 "http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot",
 				 "testContactPrenom",
 				 CONTACT__TEST_CONTACT_PRENOM__EEXPRESSION,
-				 Diagnostic.ERROR,
-				 DIAGNOSTIC_SOURCE,
-				 0);
-	}
-
-	/**
-	 * The cached validation expression for the testContactMail constraint of '<em>Contact</em>'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected static final String CONTACT__TEST_CONTACT_MAIL__EEXPRESSION = "mail = 'cedric.marrec29@gmail.com'";
-
-	/**
-	 * Validates the testContactMail constraint of '<em>Contact</em>'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean validateContact_testContactMail(Contact contact, DiagnosticChain diagnostics, Map<Object, Object> context) {
-		return
-			validate
-				(SiteWebPackage.Literals.CONTACT,
-				 contact,
-				 diagnostics,
-				 context,
-				 "http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot",
-				 "testContactMail",
-				 CONTACT__TEST_CONTACT_MAIL__EEXPRESSION,
 				 Diagnostic.ERROR,
 				 DIAGNOSTIC_SOURCE,
 				 0);
