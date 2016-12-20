@@ -724,8 +724,6 @@ public class SiteWebPackageImpl extends EPackageImpl implements SiteWebPackage {
 		createEcoreAnnotations();
 		// http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot
 		createPivotAnnotations();
-		// http://schema.omg.org/spec/MOF/2.0/emof.xml#Property.oppositeRoleName
-		createEmofAnnotations();
 	}
 
 	/**
@@ -815,48 +813,6 @@ public class SiteWebPackageImpl extends EPackageImpl implements SiteWebPackage {
 			 "testTitre", "titreSite=\'SiteWeb\'",
 			 "testAuteurs", "auteurs= \'Socrate\'",
 			 "testTaillePolice", "taillePolice=14"
-		   });
-	}
-
-	/**
-	 * Initializes the annotations for <b>http://schema.omg.org/spec/MOF/2.0/emof.xml#Property.oppositeRoleName</b>.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected void createEmofAnnotations() {
-		String source = "http://schema.omg.org/spec/MOF/2.0/emof.xml#Property.oppositeRoleName";	
-		addAnnotation
-		  (getConfigurationPage_CouleurFond(), 
-		   source, 
-		   new String[] {
-			 "body", "PagePrincipale",
-			 "unique", "false",
-			 "upper", "*"
-		   });	
-		addAnnotation
-		  (getConfigurationPage_TitreSite(), 
-		   source, 
-		   new String[] {
-			 "body", "PagePrincipale",
-			 "unique", "false",
-			 "upper", "*"
-		   });	
-		addAnnotation
-		  (getConfigurationPage_Auteurs(), 
-		   source, 
-		   new String[] {
-			 "body", "PagePrincipale",
-			 "unique", "false",
-			 "upper", "*"
-		   });	
-		addAnnotation
-		  (getConfigurationPage_CouleurPolice(), 
-		   source, 
-		   new String[] {
-			 "body", "PagePrincipale",
-			 "unique", "false",
-			 "upper", "*"
 		   });
 	}
 

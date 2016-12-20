@@ -37,7 +37,7 @@ public interface ConfigurationPage extends EObject {
 	 * @return the value of the '<em>Couleur Fond</em>' attribute.
 	 * @see #setCouleurFond(String)
 	 * @see siteWeb.SiteWebPackage#getConfigurationPage_CouleurFond()
-	 * @model annotation="http://schema.omg.org/spec/MOF/2.0/emof.xml#Property.oppositeRoleName body='PagePrincipale' unique='false' upper='*'"
+	 * @model
 	 * @generated
 	 */
 	String getCouleurFond();
@@ -63,7 +63,7 @@ public interface ConfigurationPage extends EObject {
 	 * @return the value of the '<em>Titre Site</em>' attribute.
 	 * @see #setTitreSite(String)
 	 * @see siteWeb.SiteWebPackage#getConfigurationPage_TitreSite()
-	 * @model annotation="http://schema.omg.org/spec/MOF/2.0/emof.xml#Property.oppositeRoleName body='PagePrincipale' unique='false' upper='*'"
+	 * @model
 	 * @generated
 	 */
 	String getTitreSite();
@@ -89,7 +89,7 @@ public interface ConfigurationPage extends EObject {
 	 * @return the value of the '<em>Auteurs</em>' attribute.
 	 * @see #setAuteurs(String)
 	 * @see siteWeb.SiteWebPackage#getConfigurationPage_Auteurs()
-	 * @model annotation="http://schema.omg.org/spec/MOF/2.0/emof.xml#Property.oppositeRoleName body='PagePrincipale' unique='false' upper='*'"
+	 * @model
 	 * @generated
 	 */
 	String getAuteurs();
@@ -115,7 +115,7 @@ public interface ConfigurationPage extends EObject {
 	 * @return the value of the '<em>Couleur Police</em>' attribute.
 	 * @see #setCouleurPolice(String)
 	 * @see siteWeb.SiteWebPackage#getConfigurationPage_CouleurPolice()
-	 * @model annotation="http://schema.omg.org/spec/MOF/2.0/emof.xml#Property.oppositeRoleName body='PagePrincipale' unique='false' upper='*'"
+	 * @model
 	 * @generated
 	 */
 	String getCouleurPolice();
